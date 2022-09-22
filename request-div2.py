@@ -3,7 +3,7 @@ from urllib import request, response
 import json
 import requests
 
-header = {'TRN-Api-Key': '4d0aafc2-52eb-4c6d-8e41-975e409194cb', 
+header = {'TRN-Api-Key': '', 
           'Accept': 'application/json',
           'Accept-Encoding': 'gzip'}
 r = requests.get('https://public-api.tracker.gg/v2/division-2/standard/profile/psn/PunKxj', params=header)
